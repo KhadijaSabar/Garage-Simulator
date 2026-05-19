@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
+  <defs>
+    <linearGradient id="mTank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7AE0A0"></stop><stop offset="0.5" stop-color="#5BB867"></stop><stop offset="1" stop-color="#27632F"></stop>
+    </linearGradient>
+    <radialGradient id="mTire" cx="0.5" cy="0.4" r="0.6"><stop offset="0" stop-color="#4A3A30"></stop><stop offset="0.7" stop-color="#1F1814"></stop></radialGradient>
+    <radialGradient id="mHub" cx="0.4" cy="0.4" r="0.6"><stop offset="0" stop-color="#D8E0E6"></stop><stop offset="1" stop-color="#6E7C86"></stop></radialGradient>
+  </defs>
+  <ellipse cx="160" cy="206" rx="130" ry="10" fill="#1F1814" opacity="0.34"></ellipse>
+
+  
+  <path d="M210 174 Q244 168 270 156" fill="none" stroke="#D8E0E6" stroke-width="14" stroke-linecap="round"></path>
+  <path d="M210 174 Q244 168 270 156" fill="none" stroke="#1F1814" stroke-width="3" stroke-linecap="round"></path>
+  <circle cx="270" cy="156" r="8" fill="#1F1814" stroke="#1F1814" stroke-width="3"></circle>
+  <circle cx="270" cy="156" r="4" fill="#3A2E26"></circle>
+
+  
+  <line x1="120" y1="160" x2="200" y2="160" stroke="#1F1814" stroke-width="6" stroke-linecap="round"></line>
+  <line x1="120" y1="160" x2="98" y2="186" stroke="#1F1814" stroke-width="6" stroke-linecap="round"></line>
+  <line x1="200" y1="160" x2="222" y2="186" stroke="#1F1814" stroke-width="6" stroke-linecap="round"></line>
+
+  
+  <path d="M120 130 Q140 110 180 110 Q210 110 220 132 Q220 156 200 162 L130 162 Q116 156 120 130 Z" fill="url(#mTank)" stroke="#1F1814" stroke-width="5"></path>
+  
+  <path d="M132 124 Q160 114 196 122 L194 134 Q160 124 134 134 Z" fill="#FFF1D4" opacity="0.5"></path>
+  
+  <circle cx="170" cy="138" r="10" fill="#FFC73A" stroke="#1F1814" stroke-width="3"></circle>
+  <text x="170" y="143" text-anchor="middle" font-family="Titan One, sans-serif" font-size="12" fill="#1F1814">G</text>
+
+  
+  <path d="M204 130 L240 124 L246 138 L210 144 Z" fill="#3A2E26" stroke="#1F1814" stroke-width="4" stroke-linejoin="round"></path>
+  <rect x="206" y="136" width="38" height="3" fill="#FFF1D4" opacity="0.4"></rect>
+
+  
+  <path d="M118 116 L100 96" stroke="#1F1814" stroke-width="6" stroke-linecap="round"></path>
+  <rect x="92" y="92" width="14" height="6" rx="2" fill="#3A2E26" stroke="#1F1814" stroke-width="2"></rect>
+  
+  <circle cx="106" cy="142" r="14" fill="#FFE699" stroke="#1F1814" stroke-width="4"></circle>
+  <circle cx="103" cy="139" r="5" fill="#FFF1D4"></circle>
+  
+  <circle cx="98" cy="96" r="6" fill="#D8E0E6" stroke="#1F1814" stroke-width="3"></circle>
+
+  
+  <g>
+    <circle cx="222" cy="186" r="34" fill="url(#mTire)" stroke="#1F1814" stroke-width="4"></circle>
+    <circle cx="222" cy="186" r="14" fill="url(#mHub)" stroke="#1F1814" stroke-width="3"></circle>
+    <g stroke="#FFF1D4" stroke-width="1.5" stroke-linecap="round">
+      <line x1="222" y1="156" x2="222" y2="216"></line>
+      <line x1="192" y1="186" x2="252" y2="186"></line>
+      <line x1="200" y1="164" x2="244" y2="208"></line>
+      <line x1="244" y1="164" x2="200" y2="208"></line>
+      <line x1="208" y1="158" x2="236" y2="214"></line>
+      <line x1="236" y1="158" x2="208" y2="214"></line>
+    </g>
+    <circle cx="222" cy="186" r="4" fill="#FFC73A"></circle>
+  </g>
+  
+  <g>
+    <circle cx="98" cy="186" r="34" fill="url(#mTire)" stroke="#1F1814" stroke-width="4"></circle>
+    <circle cx="98" cy="186" r="14" fill="url(#mHub)" stroke="#1F1814" stroke-width="3"></circle>
+    <g stroke="#FFF1D4" stroke-width="1.5" stroke-linecap="round">
+      <line x1="98" y1="156" x2="98" y2="216"></line>
+      <line x1="68" y1="186" x2="128" y2="186"></line>
+      <line x1="76" y1="164" x2="120" y2="208"></line>
+      <line x1="120" y1="164" x2="76" y2="208"></line>
+      <line x1="84" y1="158" x2="112" y2="214"></line>
+      <line x1="112" y1="158" x2="84" y2="214"></line>
+    </g>
+    <circle cx="98" cy="186" r="4" fill="#FFC73A"></circle>
+  </g>
+</svg>

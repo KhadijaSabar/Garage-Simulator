@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3garage4main1"]
+
+[ext_resource type="Script" path="res://scripts/garage/Garage.gd" id="1_garage"]
+
+[node name="Garage" type="Node3D" groups=["garage"]]
+script = ExtResource("1_garage")
+
+[node name="CustomerTimer" type="Timer" parent="."]
+wait_time = 45.0
+one_shot = true

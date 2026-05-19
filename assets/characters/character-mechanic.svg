@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="320" viewBox="0 0 280 320">
+  <defs>
+    <linearGradient id="apron" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F18738"></stop>
+      <stop offset="1" stop-color="#C2581A"></stop>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5C9A2"></stop>
+      <stop offset="1" stop-color="#D89866"></stop>
+    </linearGradient>
+    <linearGradient id="hat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E64A3C"></stop>
+      <stop offset="1" stop-color="#A82A1F"></stop>
+    </linearGradient>
+    <radialGradient id="cheek" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E64A3C" stop-opacity="0.55"></stop>
+      <stop offset="1" stop-color="#E64A3C" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  
+  <ellipse cx="140" cy="305" rx="86" ry="10" fill="#1F1814" opacity="0.3"></ellipse>
+  
+  <rect x="100" y="240" width="32" height="60" rx="8" fill="#3A2E26" stroke="#1F1814" stroke-width="4"></rect>
+  <rect x="148" y="240" width="32" height="60" rx="8" fill="#3A2E26" stroke="#1F1814" stroke-width="4"></rect>
+  
+  <ellipse cx="116" cy="298" rx="22" ry="10" fill="#1F1814"></ellipse>
+  <ellipse cx="164" cy="298" rx="22" ry="10" fill="#1F1814"></ellipse>
+  
+  <path d="M70 150 Q70 130 96 124 L184 124 Q210 130 210 150 L210 244 Q140 258 70 244 Z" fill="url(#apron)" stroke="#1F1814" stroke-width="5"></path>
+  
+  <rect x="110" y="118" width="10" height="40" fill="#F18738" stroke="#1F1814" stroke-width="3"></rect>
+  <rect x="160" y="118" width="10" height="40" fill="#F18738" stroke="#1F1814" stroke-width="3"></rect>
+  
+  <rect x="118" y="180" width="44" height="36" rx="4" fill="#D26A1F" stroke="#1F1814" stroke-width="3"></rect>
+  <line x1="140" y1="180" x2="140" y2="216" stroke="#1F1814" stroke-width="2"></line>
+  
+  <g transform="rotate(-20 132 178)">
+    <rect x="128" y="160" width="6" height="24" fill="#98A6B0" stroke="#1F1814" stroke-width="2"></rect>
+    <path d="M124 156 Q131 150 138 156 L138 164 L134 164 L134 168 L128 168 L128 164 L124 164 Z" fill="#98A6B0" stroke="#1F1814" stroke-width="2"></path>
+  </g>
+  
+  <ellipse cx="62" cy="200" rx="22" ry="34" fill="url(#apron)" stroke="#1F1814" stroke-width="5"></ellipse>
+  <ellipse cx="218" cy="200" rx="22" ry="34" fill="url(#apron)" stroke="#1F1814" stroke-width="5"></ellipse>
+  
+  <circle cx="62" cy="234" r="20" fill="#FFC73A" stroke="#1F1814" stroke-width="4"></circle>
+  <circle cx="218" cy="234" r="20" fill="#FFC73A" stroke="#1F1814" stroke-width="4"></circle>
+  
+  <path d="M76 224 Q86 222 84 232" fill="none" stroke="#1F1814" stroke-width="3"></path>
+  <path d="M204 224 Q194 222 196 232" fill="none" stroke="#1F1814" stroke-width="3"></path>
+  
+  <ellipse cx="140" cy="98" rx="48" ry="50" fill="url(#skin)" stroke="#1F1814" stroke-width="5"></ellipse>
+  
+  <circle cx="118" cy="110" r="10" fill="url(#cheek)"></circle>
+  <circle cx="162" cy="110" r="10" fill="url(#cheek)"></circle>
+  
+  <circle cx="124" cy="96" r="5" fill="#1F1814"></circle>
+  <circle cx="156" cy="96" r="5" fill="#1F1814"></circle>
+  <circle cx="125.5" cy="94.5" r="1.6" fill="#FFF1D4"></circle>
+  <circle cx="157.5" cy="94.5" r="1.6" fill="#FFF1D4"></circle>
+  
+  <path d="M124 116 Q140 128 156 116" fill="none" stroke="#1F1814" stroke-width="4" stroke-linecap="round"></path>
+  
+  <ellipse cx="170" cy="118" rx="8" ry="3" fill="#3A2E26" opacity="0.55"></ellipse>
+  <ellipse cx="166" cy="121" rx="3" ry="1.5" fill="#3A2E26" opacity="0.55"></ellipse>
+  
+  <path d="M88 76 Q88 50 140 48 Q192 50 192 76 L192 84 L88 84 Z" fill="url(#hat)" stroke="#1F1814" stroke-width="5"></path>
+  
+  <path d="M82 80 Q140 92 198 80 L198 90 Q140 100 82 90 Z" fill="#A82A1F" stroke="#1F1814" stroke-width="5"></path>
+  
+  <circle cx="140" cy="68" r="12" fill="#FFC73A" stroke="#1F1814" stroke-width="3"></circle>
+  <text x="140" y="73" text-anchor="middle" font-family="Titan One, sans-serif" font-size="14" fill="#1F1814">G</text>
+  
+  <ellipse cx="140" cy="142" rx="30" ry="6" fill="#3A2E26" opacity="0.18"></ellipse>
+</svg>

@@ -1,0 +1,203 @@
+/* ============================================================
+   GREASE & GLORY — Design Tokens
+   Type + Color foundations
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Fredoka:wght@400;500;600;700&family=Bree+Serif&display=swap');
+
+:root {
+  /* ---------- COLORS — Workshop Palette ---------- */
+
+  /* Primaries — saturated, sun-kissed, painted-metal feel */
+  --gg-rust:        #F18738; /* primary action, signage, mechanic apron */
+  --gg-rust-deep:   #D26A1F; /* hover/press state of rust */
+  --gg-rust-soft:   #FBC791; /* tinted backgrounds */
+
+  --gg-sky:         #4DB8E8; /* waterpark blue — info, paint can */
+  --gg-sky-deep:    #2E91C1;
+  --gg-sky-soft:    #B5E3F4;
+
+  --gg-cherry:      #E64A3C; /* danger, low-condition, "STOP" */
+  --gg-cherry-deep: #C2342A;
+
+  --gg-hazard:      #FFC73A; /* coins, hazard tape, highlights */
+  --gg-hazard-deep: #E0A21A;
+
+  --gg-sage:        #5BB867; /* success, money in, healthy condition */
+  --gg-sage-deep:   #3F9A4B;
+
+  --gg-grape:       #8B6CC4; /* rare/legendary tier */
+  --gg-grape-deep:  #6B4DA1;
+
+  /* Neutrals — workshop concrete, oil, paper */
+  --gg-cream:       #FFF1D4; /* paper / receipt / page bg */
+  --gg-paper:       #FFFAF0; /* card surface */
+  --gg-concrete:    #E8DFCE; /* secondary bg / shop floor */
+  --gg-concrete-2:  #D2C7B0; /* dividers, inner shadow */
+  --gg-oil:         #3A2E26; /* primary text */
+  --gg-oil-soft:    #6E5A48; /* secondary text */
+  --gg-grease:      #1F1814; /* hard outline, max-contrast text */
+
+  /* Steel & rust accents */
+  --gg-steel:       #98A6B0;
+  --gg-steel-deep:  #6E7C86;
+  --gg-rust-grit:   #8B4A22; /* deep oxidized brown */
+
+  /* ---------- SEMANTIC ---------- */
+  --bg:             var(--gg-cream);
+  --bg-card:        var(--gg-paper);
+  --bg-sunken:      var(--gg-concrete);
+  --fg:             var(--gg-oil);
+  --fg-soft:        var(--gg-oil-soft);
+  --fg-on-dark:     var(--gg-cream);
+  --outline:        var(--gg-grease);
+  --outline-soft:   var(--gg-concrete-2);
+
+  --accent:         var(--gg-rust);
+  --accent-deep:    var(--gg-rust-deep);
+  --info:           var(--gg-sky);
+  --success:        var(--gg-sage);
+  --warning:        var(--gg-hazard);
+  --danger:         var(--gg-cherry);
+  --legendary:      var(--gg-grape);
+
+  --money:          var(--gg-sage);
+  --coin:           var(--gg-hazard);
+
+  /* ---------- TYPOGRAPHY ---------- */
+  --font-display:   'Titan One', 'Lilita One', system-ui, sans-serif;
+  --font-body:      'Fredoka', system-ui, -apple-system, sans-serif;
+  --font-tag:       'Bree Serif', Georgia, serif; /* enamel-sign / ticket-stub feel */
+
+  /* Sizes — chunky, readable at game-UI distance */
+  --fs-hero:        56px;
+  --fs-display:     40px;
+  --fs-h1:          32px;
+  --fs-h2:          24px;
+  --fs-h3:          20px;
+  --fs-body:        16px;
+  --fs-small:       14px;
+  --fs-tiny:        12px;
+
+  /* Tracking & line height */
+  --tracking-display: 0.01em;
+  --tracking-tag:     0.06em;
+  --lh-tight:         1.05;
+  --lh-snug:          1.2;
+  --lh-body:          1.45;
+
+  /* ---------- SPACING (4-pt scale, chunky) ---------- */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+
+  /* ---------- RADII — soft / chunky ---------- */
+  --r-sm:   8px;
+  --r-md:   14px;
+  --r-lg:   20px;
+  --r-xl:   28px;
+  --r-pill: 999px;
+
+  /* ---------- OUTLINES — Overcooked-style ---------- */
+  --stroke-1: 2px;
+  --stroke-2: 3px;
+  --stroke-3: 4px; /* default chunky outline */
+  --stroke-4: 5px;
+
+  /* ---------- SHADOWS — soft, warm, chunky bottom only ---------- */
+  --shadow-pop:     0 4px 0 0 var(--gg-grease);
+  --shadow-pop-sm:  0 3px 0 0 var(--gg-grease);
+  --shadow-press:   0 1px 0 0 var(--gg-grease);
+  --shadow-card:    0 6px 0 -2px rgba(31,24,20,0.18), 0 12px 24px -8px rgba(31,24,20,0.18);
+  --shadow-floor:   0 18px 24px -16px rgba(31,24,20,0.45);
+
+  /* ---------- MOTION ---------- */
+  --ease-pop:    cubic-bezier(0.34, 1.56, 0.64, 1); /* slight overshoot */
+  --ease-out:    cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast:    120ms;
+  --dur-base:    200ms;
+  --dur-slow:    360ms;
+}
+
+/* ============================================================
+   SEMANTIC TYPE STYLES
+   ============================================================ */
+
+.gg-hero,
+.gg-display,
+.gg-h1,
+.gg-h2 {
+  font-family: var(--font-display);
+  color: var(--fg);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-display);
+  -webkit-text-stroke: 0; /* outlined variants below */
+  margin: 0;
+}
+.gg-hero    { font-size: var(--fs-hero); }
+.gg-display { font-size: var(--fs-display); }
+.gg-h1      { font-size: var(--fs-h1); }
+.gg-h2      { font-size: var(--fs-h2); }
+
+.gg-h3 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: var(--fs-h3);
+  line-height: var(--lh-snug);
+  color: var(--fg);
+  margin: 0;
+}
+
+.gg-body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+}
+
+.gg-body-bold {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+}
+
+.gg-small {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-small);
+  color: var(--fg-soft);
+}
+
+.gg-tag {
+  font-family: var(--font-tag);
+  font-size: var(--fs-tiny);
+  letter-spacing: var(--tracking-tag);
+  text-transform: uppercase;
+  color: var(--fg-soft);
+}
+
+.gg-numeric {
+  font-family: var(--font-display);
+  font-feature-settings: "tnum" 1;
+  letter-spacing: 0;
+}
+
+/* Outlined display text — Overcooked signage */
+.gg-outlined {
+  color: var(--gg-cream);
+  -webkit-text-stroke: 4px var(--outline);
+  paint-order: stroke fill;
+  text-shadow: 0 4px 0 var(--outline);
+}
+.gg-outlined.is-rust  { color: var(--gg-hazard); }
+.gg-outlined.is-sky   { color: var(--gg-sky-soft); }
+.gg-outlined.is-cream { color: var(--gg-cream); }

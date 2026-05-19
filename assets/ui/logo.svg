@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" font-family="Titan One, Lilita One, sans-serif">
+  <defs>
+    <filter id="dropshadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="0" flood-color="#1F1814"></feDropShadow>
+    </filter>
+  </defs>
+  
+  <g filter="url(#dropshadow)">
+    <text x="300" y="92" text-anchor="middle" font-size="78" fill="#FFC73A" stroke="#1F1814" stroke-width="10" paint-order="stroke fill" letter-spacing="2">GREASE</text>
+  </g>
+  
+  <g filter="url(#dropshadow)">
+    <text x="300" y="138" text-anchor="middle" font-size="40" fill="#F18738" stroke="#1F1814" stroke-width="6" paint-order="stroke fill">&amp;</text>
+  </g>
+  
+  <g filter="url(#dropshadow)">
+    <text x="300" y="200" text-anchor="middle" font-size="78" fill="#FFC73A" stroke="#1F1814" stroke-width="10" paint-order="stroke fill" letter-spacing="2">GLORY</text>
+  </g>
+</svg>

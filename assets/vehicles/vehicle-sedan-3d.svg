@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="240" viewBox="0 0 380 240">
+  <defs>
+    <linearGradient id="vBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6F4D"></stop>
+      <stop offset="0.5" stop-color="#E64A3C"></stop>
+      <stop offset="1" stop-color="#9C2A20"></stop>
+    </linearGradient>
+    <linearGradient id="vSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E64A3C"></stop>
+      <stop offset="1" stop-color="#7E2218"></stop>
+    </linearGradient>
+    <linearGradient id="vGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8F5FB"></stop>
+      <stop offset="0.5" stop-color="#7FCCE8"></stop>
+      <stop offset="1" stop-color="#3F8DB6"></stop>
+    </linearGradient>
+    <radialGradient id="vTire" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#4A3A30"></stop>
+      <stop offset="0.6" stop-color="#1F1814"></stop>
+      <stop offset="1" stop-color="#000"></stop>
+    </radialGradient>
+    <radialGradient id="vHub" cx="0.4" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#D8E0E6"></stop>
+      <stop offset="1" stop-color="#6E7C86"></stop>
+    </radialGradient>
+    <linearGradient id="vGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F1814" stop-opacity="0.5"></stop>
+      <stop offset="1" stop-color="#1F1814" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+
+  
+  <ellipse cx="190" cy="218" rx="170" ry="14" fill="#1F1814" opacity="0.34"></ellipse>
+  <ellipse cx="190" cy="218" rx="150" ry="8" fill="#1F1814" opacity="0.5"></ellipse>
+
+  
+  <path d="M44 168 L336 168 L324 184 L56 184 Z" fill="#3A2E26" stroke="#1F1814" stroke-width="3"></path>
+
+  
+  <path d="M40 168 Q40 132 70 120 L98 70 Q108 56 130 54 L260 54 Q286 56 304 84 L324 116 Q344 124 344 168 L344 178 Q344 184 338 184 L46 184 Q40 184 40 178 Z" fill="url(#vBody)" stroke="#1F1814" stroke-width="5"></path>
+
+  
+  <path d="M40 152 L344 152 L344 168 L40 168 Z" fill="url(#vSide)" opacity="0.7"></path>
+
+  
+  <rect x="48" y="146" width="288" height="3" fill="#FFF1D4" opacity="0.5"></rect>
+
+  
+  <path d="M118 64 Q190 50 270 62 L262 74 Q190 64 124 76 Z" fill="#FFF1D4" opacity="0.45"></path>
+
+  
+  <path d="M114 78 Q124 60 144 60 L218 60 L246 96 L106 96 Z" fill="url(#vGlass)" stroke="#1F1814" stroke-width="4" stroke-linejoin="round"></path>
+  <path d="M246 96 L218 60 L260 60 Q284 62 296 80 L304 96 Z" fill="url(#vGlass)" stroke="#1F1814" stroke-width="4" stroke-linejoin="round"></path>
+
+  
+  <path d="M120 78 L138 70 L210 70 L218 78 L160 84 Z" fill="#FFF1D4" opacity="0.55"></path>
+  <path d="M252 90 L262 70 L284 70 L280 90 Z" fill="#FFF1D4" opacity="0.4"></path>
+
+  
+  <line x1="190" y1="96" x2="190" y2="178" stroke="#1F1814" stroke-width="3" opacity="0.7"></line>
+  
+  <rect x="146" y="124" width="22" height="5" rx="2.5" fill="#1F1814"></rect>
+  <rect x="208" y="124" width="22" height="5" rx="2.5" fill="#1F1814"></rect>
+
+  
+  <path d="M104 92 L86 100 L92 110 L106 104 Z" fill="url(#vSide)" stroke="#1F1814" stroke-width="3" stroke-linejoin="round"></path>
+
+  
+  <ellipse cx="328" cy="138" rx="14" ry="10" fill="#FFE699" stroke="#1F1814" stroke-width="3"></ellipse>
+  <ellipse cx="324" cy="134" rx="6" ry="4" fill="#FFF1D4" opacity="0.9"></ellipse>
+  
+  <rect x="44" y="132" width="14" height="14" rx="3" fill="#E64A3C" stroke="#1F1814" stroke-width="3"></rect>
+
+  
+  <rect x="298" y="148" width="34" height="14" rx="3" fill="#3A2E26" stroke="#1F1814" stroke-width="3"></rect>
+  <line x1="304" y1="151" x2="304" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+  <line x1="312" y1="151" x2="312" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+  <line x1="320" y1="151" x2="320" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+  <line x1="328" y1="151" x2="328" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+
+  
+  <rect x="46" y="174" width="292" height="4" fill="#FFF1D4" opacity="0.3"></rect>
+
+  
+  <ellipse cx="74" cy="160" rx="14" ry="6" fill="#8B4A22" opacity="0.7"></ellipse>
+  <ellipse cx="68" cy="156" rx="5" ry="2" fill="#3A2E26" opacity="0.6"></ellipse>
+
+  
+  <g>
+    <ellipse cx="290" cy="194" rx="34" ry="14" fill="#1F1814" opacity="0.4"></ellipse>
+    <circle cx="290" cy="186" r="32" fill="url(#vTire)" stroke="#1F1814" stroke-width="4"></circle>
+    <circle cx="290" cy="186" r="22" fill="url(#vHub)" stroke="#1F1814" stroke-width="3"></circle>
+    <g stroke="#1F1814" stroke-width="3" stroke-linecap="round" fill="none">
+      <line x1="290" y1="170" x2="290" y2="202"></line>
+      <line x1="274" y1="186" x2="306" y2="186"></line>
+      <line x1="278" y1="174" x2="302" y2="198"></line>
+      <line x1="302" y1="174" x2="278" y2="198"></line>
+    </g>
+    <circle cx="290" cy="186" r="5" fill="#FFC73A" stroke="#1F1814" stroke-width="2"></circle>
+    
+    <path d="M276 174 Q284 168 296 168" fill="none" stroke="#FFF1D4" stroke-width="2" opacity="0.7"></path>
+  </g>
+
+  
+  <g>
+    <ellipse cx="92" cy="194" rx="34" ry="14" fill="#1F1814" opacity="0.4"></ellipse>
+    <circle cx="92" cy="186" r="32" fill="url(#vTire)" stroke="#1F1814" stroke-width="4"></circle>
+    <circle cx="92" cy="186" r="22" fill="url(#vHub)" stroke="#1F1814" stroke-width="3"></circle>
+    <g stroke="#1F1814" stroke-width="3" stroke-linecap="round" fill="none">
+      <line x1="92" y1="170" x2="92" y2="202"></line>
+      <line x1="76" y1="186" x2="108" y2="186"></line>
+      <line x1="80" y1="174" x2="104" y2="198"></line>
+      <line x1="104" y1="174" x2="80" y2="198"></line>
+    </g>
+    <circle cx="92" cy="186" r="5" fill="#FFC73A" stroke="#1F1814" stroke-width="2"></circle>
+    <path d="M78 174 Q86 168 98 168" fill="none" stroke="#FFF1D4" stroke-width="2" opacity="0.7"></path>
+  </g>
+</svg>

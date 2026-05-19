@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="280" viewBox="0 0 220 280">
+  <defs>
+    <linearGradient id="fJacket" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E64A3C"></stop><stop offset="1" stop-color="#9C2A20"></stop></linearGradient>
+    <linearGradient id="fSkin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E5B485"></stop><stop offset="1" stop-color="#B68852"></stop></linearGradient>
+    <radialGradient id="fCheek" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#E64A3C" stop-opacity="0.5"></stop><stop offset="1" stop-color="#E64A3C" stop-opacity="0"></stop></radialGradient>
+  </defs>
+  <ellipse cx="110" cy="266" rx="74" ry="9" fill="#1F1814" opacity="0.3"></ellipse>
+  <rect x="78" y="208" width="28" height="54" rx="6" fill="#4DB8E8" stroke="#1F1814" stroke-width="4"></rect>
+  <rect x="118" y="208" width="28" height="54" rx="6" fill="#4DB8E8" stroke="#1F1814" stroke-width="4"></rect>
+  <ellipse cx="92" cy="262" rx="20" ry="9" fill="#1F1814"></ellipse>
+  <ellipse cx="132" cy="262" rx="20" ry="9" fill="#1F1814"></ellipse>
+  
+  <path d="M52 130 Q52 110 80 104 L140 104 Q168 110 168 130 L168 212 Q110 222 52 212 Z" fill="url(#fJacket)" stroke="#1F1814" stroke-width="5"></path>
+  
+  <path d="M82 106 L106 150 L94 200" fill="#9C2A20" stroke="#1F1814" stroke-width="3" stroke-linejoin="round"></path>
+  <path d="M138 106 L114 150 L126 200" fill="#9C2A20" stroke="#1F1814" stroke-width="3" stroke-linejoin="round"></path>
+  
+  <path d="M98 130 L122 130 L120 200 L100 200 Z" fill="#FFF1D4" stroke="#1F1814" stroke-width="3"></path>
+  
+  <ellipse cx="48" cy="172" rx="18" ry="30" fill="url(#fJacket)" stroke="#1F1814" stroke-width="5"></ellipse>
+  <ellipse cx="172" cy="172" rx="18" ry="30" fill="url(#fJacket)" stroke="#1F1814" stroke-width="5"></ellipse>
+  <circle cx="48" cy="200" r="14" fill="url(#fSkin)" stroke="#1F1814" stroke-width="3"></circle>
+  <circle cx="172" cy="200" r="14" fill="url(#fSkin)" stroke="#1F1814" stroke-width="3"></circle>
+  
+  <path d="M168 210 Q176 218 172 224" fill="none" stroke="#1F1814" stroke-width="3"></path>
+  
+  <ellipse cx="110" cy="76" rx="38" ry="40" fill="url(#fSkin)" stroke="#1F1814" stroke-width="5"></ellipse>
+  
+  <rect x="80" y="66" width="60" height="14" rx="6" fill="#1F1814" stroke="#1F1814" stroke-width="3"></rect>
+  <line x1="110" y1="66" x2="110" y2="80" stroke="#3A2E26" stroke-width="2"></line>
+  <rect x="84" y="69" width="22" height="8" fill="#4DB8E8" opacity="0.4"></rect>
+  <rect x="114" y="69" width="22" height="8" fill="#4DB8E8" opacity="0.4"></rect>
+  
+  <path d="M98 96 Q110 92 122 96" fill="none" stroke="#1F1814" stroke-width="4" stroke-linecap="round"></path>
+  
+  <line x1="120" y1="96" x2="138" y2="92" stroke="#FFF1D4" stroke-width="2.5" stroke-linecap="round"></line>
+  
+  <path d="M76 50 Q90 30 110 32 Q130 30 144 50 L142 64 Q126 56 110 56 Q94 56 78 64 Z" fill="#3A2E26" stroke="#1F1814" stroke-width="4"></path>
+  <circle cx="92" cy="100" r="10" fill="url(#fCheek)"></circle>
+  <circle cx="128" cy="100" r="10" fill="url(#fCheek)"></circle>
+</svg>

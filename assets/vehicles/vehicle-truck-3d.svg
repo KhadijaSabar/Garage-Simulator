@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="240" viewBox="0 0 380 240">
+  <defs>
+    <linearGradient id="tBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7AC9F0"></stop>
+      <stop offset="0.5" stop-color="#4DB8E8"></stop>
+      <stop offset="1" stop-color="#1A6A95"></stop>
+    </linearGradient>
+    <linearGradient id="tBed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3F8DB6"></stop>
+      <stop offset="1" stop-color="#155778"></stop>
+    </linearGradient>
+    <linearGradient id="tGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8F5FB"></stop>
+      <stop offset="1" stop-color="#3F8DB6"></stop>
+    </linearGradient>
+    <radialGradient id="tTire" cx="0.5" cy="0.4" r="0.6"><stop offset="0" stop-color="#4A3A30"></stop><stop offset="0.6" stop-color="#1F1814"></stop><stop offset="1" stop-color="#000"></stop></radialGradient>
+    <radialGradient id="tHub" cx="0.4" cy="0.4" r="0.6"><stop offset="0" stop-color="#D8E0E6"></stop><stop offset="1" stop-color="#6E7C86"></stop></radialGradient>
+  </defs>
+  <ellipse cx="190" cy="218" rx="170" ry="14" fill="#1F1814" opacity="0.34"></ellipse>
+  <ellipse cx="190" cy="218" rx="150" ry="8" fill="#1F1814" opacity="0.5"></ellipse>
+
+  
+  <path d="M40 116 L196 116 L196 184 L40 184 Z" fill="url(#tBed)" stroke="#1F1814" stroke-width="5"></path>
+  
+  <rect x="50" y="124" width="138" height="50" rx="3" fill="#0E3A52" opacity="0.6"></rect>
+  
+  <rect x="62" y="138" width="44" height="34" rx="3" fill="#8B4A22" stroke="#1F1814" stroke-width="3"></rect>
+  <line x1="84" y1="138" x2="84" y2="172" stroke="#1F1814" stroke-width="2"></line>
+  <rect x="116" y="146" width="36" height="26" rx="3" fill="#FFC73A" stroke="#1F1814" stroke-width="3"></rect>
+
+  
+  <path d="M196 80 Q196 70 210 66 L268 66 Q284 68 296 84 L320 116 Q344 124 344 168 L344 178 Q344 184 338 184 L196 184 Z" fill="url(#tBody)" stroke="#1F1814" stroke-width="5"></path>
+  
+  <rect x="196" y="148" width="148" height="6" fill="#155778" opacity="0.7"></rect>
+  
+  <rect x="200" y="146" width="140" height="2" fill="#FFF1D4" opacity="0.5"></rect>
+
+  
+  <path d="M210 80 Q220 70 240 70 L268 70 Q282 72 290 90 L296 116 L210 116 Z" fill="url(#tGlass)" stroke="#1F1814" stroke-width="4" stroke-linejoin="round"></path>
+  <path d="M214 84 L240 76 L268 76 L272 96 L222 100 Z" fill="#FFF1D4" opacity="0.55"></path>
+
+  
+  <rect x="196" y="80" width="14" height="36" fill="url(#tGlass)" stroke="#1F1814" stroke-width="4"></rect>
+
+  
+  <rect x="240" y="138" width="22" height="5" rx="2.5" fill="#1F1814"></rect>
+  <line x1="226" y1="116" x2="226" y2="178" stroke="#1F1814" stroke-width="3" opacity="0.7"></line>
+
+  
+  <path d="M200 96 L184 102 L188 112 L202 108 Z" fill="#155778" stroke="#1F1814" stroke-width="3" stroke-linejoin="round"></path>
+
+  
+  <ellipse cx="328" cy="138" rx="14" ry="10" fill="#FFE699" stroke="#1F1814" stroke-width="3"></ellipse>
+  <ellipse cx="324" cy="134" rx="6" ry="4" fill="#FFF1D4" opacity="0.9"></ellipse>
+  <rect x="298" y="148" width="34" height="14" rx="3" fill="#3A2E26" stroke="#1F1814" stroke-width="3"></rect>
+  <line x1="304" y1="151" x2="304" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+  <line x1="312" y1="151" x2="312" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+  <line x1="320" y1="151" x2="320" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+  <line x1="328" y1="151" x2="328" y2="159" stroke="#98A6B0" stroke-width="2"></line>
+
+  
+  <ellipse cx="60" cy="160" rx="12" ry="4" fill="#5C4530" opacity="0.6"></ellipse>
+  <ellipse cx="50" cy="156" rx="4" ry="2" fill="#5C4530" opacity="0.6"></ellipse>
+
+  
+  <g>
+    <ellipse cx="290" cy="194" rx="38" ry="14" fill="#1F1814" opacity="0.4"></ellipse>
+    <circle cx="290" cy="186" r="36" fill="url(#tTire)" stroke="#1F1814" stroke-width="4"></circle>
+    <circle cx="290" cy="186" r="24" fill="url(#tHub)" stroke="#1F1814" stroke-width="3"></circle>
+    <g stroke="#1F1814" stroke-width="4" stroke-linecap="round" fill="none">
+      <line x1="290" y1="166" x2="290" y2="206"></line>
+      <line x1="270" y1="186" x2="310" y2="186"></line>
+      <line x1="276" y1="172" x2="304" y2="200"></line>
+      <line x1="304" y1="172" x2="276" y2="200"></line>
+    </g>
+    <circle cx="290" cy="186" r="6" fill="#FFC73A" stroke="#1F1814" stroke-width="2"></circle>
+    <path d="M274 172 Q284 166 296 166" fill="none" stroke="#FFF1D4" stroke-width="2" opacity="0.7"></path>
+  </g>
+  <g>
+    <ellipse cx="92" cy="194" rx="38" ry="14" fill="#1F1814" opacity="0.4"></ellipse>
+    <circle cx="92" cy="186" r="36" fill="url(#tTire)" stroke="#1F1814" stroke-width="4"></circle>
+    <circle cx="92" cy="186" r="24" fill="url(#tHub)" stroke="#1F1814" stroke-width="3"></circle>
+    <g stroke="#1F1814" stroke-width="4" stroke-linecap="round" fill="none">
+      <line x1="92" y1="166" x2="92" y2="206"></line>
+      <line x1="72" y1="186" x2="112" y2="186"></line>
+      <line x1="78" y1="172" x2="106" y2="200"></line>
+      <line x1="106" y1="172" x2="78" y2="200"></line>
+    </g>
+    <circle cx="92" cy="186" r="6" fill="#FFC73A" stroke="#1F1814" stroke-width="2"></circle>
+    <path d="M76 172 Q86 166 98 166" fill="none" stroke="#FFF1D4" stroke-width="2" opacity="0.7"></path>
+  </g>
+</svg>

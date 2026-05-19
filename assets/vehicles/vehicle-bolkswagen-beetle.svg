@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280">
+  
+  <defs>
+    <linearGradient id="vBody" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#FFE699"></stop>
+      <stop offset="0.5" stop-color="#FFC73A"></stop>
+      <stop offset="1" stop-color="#9C6A0E"></stop>
+    </linearGradient>
+    <linearGradient id="vFender" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC73A"></stop>
+      <stop offset="1" stop-color="#7C4F08"></stop>
+    </linearGradient>
+    <radialGradient id="vTopHL" cx="0.4" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#FFF8E8" stop-opacity="0.7"></stop>
+      <stop offset="1" stop-color="#FFF8E8" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="vGlass" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#D4E8F4"></stop>
+      <stop offset="0.5" stop-color="#5C8FAE"></stop>
+      <stop offset="1" stop-color="#1A2C3A"></stop>
+    </linearGradient>
+    <radialGradient id="vTire" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#3E342C"></stop>
+      <stop offset="0.7" stop-color="#1A1410"></stop>
+      <stop offset="1" stop-color="#000"></stop>
+    </radialGradient>
+    <radialGradient id="vHub" cx="0.4" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#FFE699"></stop>
+      <stop offset="0.6" stop-color="#9C6A0E"></stop>
+      <stop offset="1" stop-color="#3E2A04"></stop>
+    </radialGradient>
+  </defs>
+
+  
+  <ellipse cx="200" cy="248" rx="172" ry="12" fill="#1F1814" opacity="0.34"></ellipse>
+  <ellipse cx="200" cy="248" rx="150" ry="6" fill="#1F1814" opacity="0.55"></ellipse>
+
+  
+  
+  <path d="M 60 180 &#xA;           Q 50 130 120 100&#xA;           Q 180 78 230 84&#xA;           Q 290 92 320 120&#xA;           Q 360 132 358 180&#xA;           Q 360 200 340 200&#xA;           L 78 200&#xA;           Q 60 200 60 180 Z" fill="url(#vBody)" stroke="#1F1814" stroke-width="5" stroke-linejoin="round"></path>
+
+  
+  <path d="M 80 180 Q 70 130 130 110 Q 190 92 230 96 Q 280 102 310 130 Q 340 140 340 178 Z" fill="url(#vTopHL)"></path>
+
+  
+  <path d="M 110 110 &#xA;           Q 130 86 175 82 &#xA;           Q 220 80 250 92&#xA;           Q 270 100 282 118&#xA;           L 268 130&#xA;           Q 240 116 200 116&#xA;           Q 158 118 130 134&#xA;           L 110 124 Z" fill="url(#vGlass)" stroke="#1F1814" stroke-width="4" stroke-linejoin="round"></path>
+
+  
+  <path d="M 200 84 L 204 124" stroke="#1F1814" stroke-width="2.5"></path>
+  
+  <path d="M 122 116 Q 150 96 196 92 L 196 104 Q 158 108 134 124 Z" fill="#FFF8E8" opacity="0.55"></path>
+  <path d="M 210 96 Q 244 96 268 110 L 264 122 Q 240 110 212 108 Z" fill="#FFF8E8" opacity="0.45"></path>
+
+  
+  <path d="M 80 158 Q 200 168 332 158" stroke="#1F1814" stroke-width="3" fill="none"></path>
+  <path d="M 82 156 Q 200 166 330 156" stroke="#FFF8E8" stroke-width="1.5" fill="none" opacity="0.6"></path>
+
+  
+  <path d="M 190 132 Q 188 162 192 196" stroke="#0A0805" stroke-width="2.5" fill="none"></path>
+  
+  <rect x="158" y="156" width="22" height="4" rx="1.5" fill="#1F1814"></rect>
+  
+
+  
+  <ellipse cx="92" cy="186" rx="50" ry="22" fill="url(#vFender)" stroke="#1F1814" stroke-width="4"></ellipse>
+  <ellipse cx="296" cy="186" rx="56" ry="24" fill="url(#vFender)" stroke="#1F1814" stroke-width="4"></ellipse>
+
+  
+  <path d="M 60 178 Q 90 162 124 178" stroke="#FFF8E8" stroke-width="2.5" fill="none" opacity="0.55"></path>
+  <path d="M 244 174 Q 296 158 350 174" stroke="#FFF8E8" stroke-width="2.5" fill="none" opacity="0.55"></path>
+
+  
+  <circle cx="304" cy="148" r="14" fill="#1F1814" stroke="#1F1814" stroke-width="3"></circle>
+  <circle cx="304" cy="148" r="11" fill="#FFE9A8" stroke="#FFC73A" stroke-width="0.5"></circle>
+  <circle cx="301" cy="145" r="3.5" fill="#FFF8E8"></circle>
+  
+  <circle cx="304" cy="148" r="14" fill="none" stroke="#D8D8D8" stroke-width="2"></circle>
+
+  
+  <ellipse cx="76" cy="160" rx="8" ry="6" fill="#E64A3C" stroke="#1F1814" stroke-width="2.5"></ellipse>
+
+  
+  <g transform="translate(330 134)">
+    <circle r="11" fill="#FFF8E8" stroke="#1F1814" stroke-width="2.5"></circle>
+    <circle r="11" fill="none" stroke="#1F1814" stroke-width="0.5" opacity="0.5" transform="scale(0.85)"></circle>
+    <text y="4" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="11" font-weight="900" fill="#1F1814">B</text>
+    <path d="M 0 -11 A 11 11 0 0 1 11 0" stroke="#FFC73A" stroke-width="2" fill="none"></path>
+  </g>
+
+  
+  <rect x="244" y="194" width="116" height="9" rx="3" fill="#D8D8D8" stroke="#1F1814" stroke-width="2.5"></rect>
+  <rect x="244" y="195" width="116" height="2" fill="#FFF8E8" opacity="0.85"></rect>
+  
+  <rect x="260" y="194" width="6" height="14" fill="#D8D8D8" stroke="#1F1814" stroke-width="2"></rect>
+  <rect x="334" y="194" width="6" height="14" fill="#D8D8D8" stroke="#1F1814" stroke-width="2"></rect>
+
+  
+  <circle cx="232" cy="116" r="6" fill="#D8D8D8" stroke="#1F1814" stroke-width="2.5"></circle>
+  <line x1="232" y1="122" x2="234" y2="130" stroke="#1F1814" stroke-width="2.5"></line>
+
+  
+  <g>
+    <ellipse cx="92" cy="220" rx="32" ry="9" fill="#0A0805" opacity="0.5"></ellipse>
+    <circle cx="92" cy="212" r="30" fill="url(#vTire)" stroke="#0A0805" stroke-width="3"></circle>
+    <circle cx="92" cy="212" r="24" fill="#FFF8E8" stroke="#1F1814" stroke-width="2"></circle>
+    <circle cx="92" cy="212" r="16" fill="url(#vHub)" stroke="#1F1814" stroke-width="2.5"></circle>
+    <g stroke="#1F1814" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <line x1="92" y1="200" x2="92" y2="224"></line>
+      <line x1="80" y1="212" x2="104" y2="212"></line>
+    </g>
+    <circle cx="92" cy="212" r="3.5" fill="#1F1814"></circle>
+    <path d="M 78 200 Q 86 196 96 196" stroke="#FFF8E8" stroke-width="1.5" fill="none" opacity="0.75"></path>
+  </g>
+  <g>
+    <ellipse cx="296" cy="220" rx="34" ry="9" fill="#0A0805" opacity="0.5"></ellipse>
+    <circle cx="296" cy="212" r="32" fill="url(#vTire)" stroke="#0A0805" stroke-width="3"></circle>
+    <circle cx="296" cy="212" r="26" fill="#FFF8E8" stroke="#1F1814" stroke-width="2"></circle>
+    <circle cx="296" cy="212" r="18" fill="url(#vHub)" stroke="#1F1814" stroke-width="2.5"></circle>
+    <g stroke="#1F1814" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <line x1="296" y1="198" x2="296" y2="226"></line>
+      <line x1="282" y1="212" x2="310" y2="212"></line>
+    </g>
+    <circle cx="296" cy="212" r="4" fill="#1F1814"></circle>
+    <path d="M 280 200 Q 290 196 302 196" stroke="#FFF8E8" stroke-width="1.5" fill="none" opacity="0.75"></path>
+  </g>
+
+  
+  <rect x="130" y="200" width="130" height="6" rx="1" fill="#1F1814"></rect>
+  <rect x="130" y="200" width="130" height="1.5" fill="#FFF8E8" opacity="0.4"></rect>
+</svg>
